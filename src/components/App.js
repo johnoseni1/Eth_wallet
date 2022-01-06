@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import daiLogo from '../dai-logo.png';
+// import daiLogo from '../dai-logo.png';
 import './App.css';
 import Web3 from 'web3';
 import DaiTokenMock from '../abis/DaiTokenMock.json'
@@ -75,7 +75,7 @@ class App extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={daiLogo} width="150" />
+                  {/* <img src={daiLogo} width="150" /> */}
                 </a>
                 <h1>{this.state.balance} DAI</h1>
                 <form onSubmit={(event) => {
