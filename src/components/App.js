@@ -70,13 +70,7 @@ class App extends Component {
           <div className="row">
             <main role="main" className="col-lg-12 d-flex text-center">
               <div className="content mr-auto ml-auto" style={{ width: "500px" }}>
-                <a
-                  href="http://www.dappuniversity.com/bootcamp"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {/* <img src={daiLogo} width="150" /> */}
-                </a>
+             
                 <h1>{this.state.balance} DAI</h1>
                 <form onSubmit={(event) => {
                   event.preventDefault()
